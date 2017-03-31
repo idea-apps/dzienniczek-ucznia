@@ -28,7 +28,7 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #fdcc52;
+  color: #E46A27;
 }
 a:hover,
 a:focus {
@@ -78,7 +78,7 @@ p {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
-  color: #fdcc52;
+  color: #E46A27;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
@@ -101,11 +101,11 @@ p {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #fdcc52;
+  color: #E46A27;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #fdcc52 !important;
+  color: #E46A27 !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -141,7 +141,7 @@ p {
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #fdcc52;
+    color: #E46A27;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
@@ -149,7 +149,7 @@ p {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #fdcc52;
+    color: #E46A27;
   }
 }
 header {
@@ -223,8 +223,13 @@ header .device-container .screen img {
     font-size: 140px;
   }
 }
+
+img.logo {
+  max-width: 30%;
+}
+
 section {
-  padding: 100px 0;
+  padding: 60px 0;
 }
 section h2 {
   font-size: 50px;
@@ -349,10 +354,10 @@ section.contact ul.list-social {
 }
 section.contact ul.list-social li a {
   display: block;
-  height: 80px;
-  width: 80px;
-  line-height: 80px;
-  font-size: 40px;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  font-size: 20px;
   border-radius: 100%;
   color: white;
 }
@@ -375,21 +380,21 @@ section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
 }
 footer {
-  background-color: #222222;
+  background-color: #242A2C;
   padding: 25px 0;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.8);
   text-align: center;
 }
 footer p {
-  font-size: 12px;
+  font-size: 14px;
   margin: 0;
 }
 footer ul {
   margin-bottom: 0;
 }
 footer ul li a {
-  font-size: 12px;
-  color: rgba(255, 255, 255, 0.3);
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
 }
 footer ul li a:hover,
 footer ul li a:focus,
@@ -426,8 +431,8 @@ footer ul li a.active {
 .btn-outline:active,
 .btn-outline.active {
   color: white;
-  background-color: #fdcc52;
-  border-color: #fdcc52;
+  background-color: #E46A27;
+  border-color: #E46A27;
 }
 .btn {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
@@ -436,8 +441,8 @@ footer ul li a.active {
   border-radius: 300px;
 }
 .btn-xl {
-  padding: 15px 45px;
-  font-size: 11px;
+  padding: 20px 45px;
+  font-size: 16px;
 }
 ::-moz-selection {
   color: white;
